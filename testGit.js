@@ -4,6 +4,9 @@ let person = {
 	hairColor: "brown",
 	funky() {
 		console.log(`${this.name} is ${this.age} years of age and has ${this.hairColor} hair`);
+	},
+	funko() {
+		console.log('Hello World');
 	}
 }
 
